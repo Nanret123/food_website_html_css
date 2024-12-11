@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Food Website</title>
+    <!--Link to css file-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Link to boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo"><i class="bx bx-basket"></i>Delicacy</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="nav-menu">
+        <li><a class="nav-menu-item" href="#home">Home</a></li>
+        <li><a class="nav-menu-item" href="#categories">Categories</a></li>
+        <li><a class="nav-menu-item" href="#products">Products</a></li>
+        <li><a class="nav-menu-item" href="#about">About</a></li>
+      </ul>
+      <div class="profile-container">
+        <img src="images/profile.jpeg" alt="profile-picture" />
+        <span>Anita John</span>
+        <i class="bx bx-caret-down"></i>
+      </div>
+    </nav>
+    <!--slider section-->
+    <section>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide container">
+            <div class="home-text">
+              <span>Discover the Taste</span>
+              <h1>
+                Fresh Flavors <br />
+                for a Healthy <br />
+                Lifestyle
+              </h1>
+              <a href="#" class="hero-btn">
+                Shop Now
+                <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+            <div class="image-container">
+              <img
+                class="slider-img"
+                src="images/slider1.jpg"
+                alt="slider-image"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="home-text">
+              <span>Pure Ingredients</span>
+              <h1>
+                Savor Every Bite <br />
+                with Our Fresh <br />
+                Salad Delights
+              </h1>
+              <a href="#" class="hero-btn">
+                Shop Now
+                <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+            <div class="image-container">
+              <img
+                class="slider-img"
+                src="images/slider2.png"
+                alt="slider-image"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="home-text">
+              <span>Your Perfect Choice</span>
+              <h1>
+                Healthy, Tasty, <br />
+                and Simply <br />
+                Irresistible
+              </h1>
+              <a href="#" class="hero-btn">
+                Shop Now
+                <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+            <div class="image-container">
+              <img
+                class="slider-img"
+                src="images/slider3.jpg"
+                alt="slider-image"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination (Optional) -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation Buttons (Optional) -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <!--slider section-->
+
+    <!--category section-->
+    <section id="categories">
+      <div class="category-heading">
+        <h1>Browse Our Hottest <br /><span>Categories</span></h1>
+        <a href="#" class="hero-btn">
+          Shop Now
+          <i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+      <div class="category-container">
+        <div class="category-card card1">
+          <img src="images/fruits.jpg" alt="fruits-image" />
+          <h2>Fruits</h2>
+          <span>22 Items</span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </div>
+        <div class="category-card card2">
+          <img src="images/veggies.jpg" alt="veggies-image" />
+          <h2>Vegetables</h2>
+          <span>20 Items</span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </div>
+        <div class="category-card card3">
+          <img src="images/drinks.jpg" alt="drinks-image" />
+          <h2>Drinks</h2>
+          <span>12 Items</span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </div>
+        <div class="category-card card4">
+          <img src="images/nuts.jpg" alt="nuts-image" />
+          <h2>Fresh Nuts</h2>
+          <span>10 Items</span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </div>
+        <div class="category-card card5">
+          <img src="images/spices.jpg" alt="spices-image" />
+          <h2>Spices</h2>
+          <span>8 Items</span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </div>
+      </div>
+    </section>
+    <!--category section-->
+
+    <!--products section-->
+    <section class="products">
+      <div class="products-heading">
+        <h1>Our Fresh and <br /><span>Healthy</span> Products</h1>
+        <a href="#" class="hero-btn">
+          Shop Now
+          <i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+      <div class="products-container">
+        <div class="product-card">
+          <img
+            src="images/grapefruit-with-orange-lime-lemon-strawberry-cherry-tangerine-coconut-side-view-brick-stone-blue-background.jpg"
+            alt="Farm fresh organic fruits"
+          />
+          <span>Fresh Items</span>
+          <h2>Farm fresh organic <br />Fruits 250g</h2>
+          <h3 class="price">$7.99<span>/kg</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-25%</span>
+        </div>
+        <div class="product-card">
+          <img
+            src="images/raw-chicken-breasts-wooden-cutting-board.jpg"
+            alt="Premium Chicken Breast"
+          />
+          <span>Protein Rich</span>
+          <h2>Premium Chicken <br />Breast 500g</h2>
+          <h3 class="price">$12.49<span>/kg</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-15%</span>
+        </div>
+        <div class="product-card">
+          <img
+            src="images/top-view-black-bread-slices-flour-oatmeal-light-ice-blue-pattern-background-with-free-space.jpg"
+            alt="Organic Whole Wheat Bread"
+          />
+          <span>Baked Fresh</span>
+          <h2>Organic Whole Wheat <br />Bread 400g</h2>
+          <h3 class="price">$3.99<span>/loaf</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-10%</span>
+        </div>
+        <div class="product-card">
+          <img src="images/jam-jar.jpg" alt="Natural Honey Jar" />
+          <span>Sweet & Pure</span>
+          <h2>Natural Honey Jar <br />500ml</h2>
+          <h3 class="price">$9.99<span>/jar</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-20%</span>
+        </div>
+        <div class="product-card">
+          <img
+            src="images/view-tool-used-coffee-press.jpg"
+            alt="Freshly Ground Coffee"
+          />
+          <span>Morning Boost</span>
+          <h2>Freshly Ground <br />Coffee 200g</h2>
+          <h3 class="price">$5.49<span>/pack</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-30%</span>
+        </div>
+        <div class="product-card">
+          <img src="images/pexels-aksbykas-3997459.jpg" alt="Organic Almonds" />
+          <span>Healthy Snacks</span>
+          <h2>Organic Almonds <br />250g</h2>
+          <h3 class="price">$14.99<span>/kg</span></h3>
+          <i class="bx bx-cart-alt"></i>
+          <i class="bx bx-heart"></i>
+          <span class="discount">-18%</span>
+        </div>
+      </div>
+    </section>
+    <!--products section-->
+
+    <!--about section-->
+    <section id="about" class="about">
+      <div class="about-left">
+        <img src="images/about.jpg" />
+      </div>
+      <div class="about-right">
+        <span>About Us</span>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam eum
+          doloremque assumenda. Eos deserunt aut porro pariatur voluptas nemo
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet optio
+          error qui tempore, doloribus ad.
+        </p>
+        <a href="#" class="hero-btn about-btn">
+          Shop Now
+          <i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+    </section>
+    <!--about section-->
+    <!--customers secction-->
+    <section class="customers">
+      <h2>Why Customers Love Us?</h2>
+      <div class="customer-container">
+        <div class="customer-card">
+          <i class="bx bxs-quote-alt-left"></i>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            consectetur neque. Sed vel velit eget enim consectetur dignissim."
+          </p>
+          <div class="review-profile">
+            <img src="images/profile1.jpeg" alt="customer-picture" />
+            <h3>Michelle Smith</h3>
+          </div>
+        </div>
+        <div class="customer-card">
+          <i class="bx bxs-quote-alt-left"></i>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            consectetur neque. Sed vel velit eget enim consectetur dignissim."
+          </p>
+          <div class="review-profile">
+            <img src="images/profile1.jpeg" alt="customer-picture" />
+            <h3>Michelle Smith</h3>
+          </div>
+        </div>
+        <div class="customer-card">
+          <i class="bx bxs-quote-alt-left"></i>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            consectetur neque. Sed vel velit eget enim consectetur dignissim."
+          </p>
+          <div class="review-profile">
+            <img src="images/profile1.jpeg" alt="customer-picture" />
+            <h3>Michelle Smith</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--customers secction-->
+    <!--footer section-->
+    <section class="footer">
+      <div class="footer-box">
+        <a href="#" class="logo"><i class="bx bx-basket"></i>Delicacy</a>
+        <p>GymVast 50th Street, 4th <br>Floor, NYC, 10022</p>
+        <div class="social">
+           <a href="#"><i class="bx bxl-facebook"></i></a>
+           <a href="#"><i class="bx bxl-twitter"></i></a>
+           <a href="#"><i class="bx bxl-instagram"></i></a>
+           <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h2>Categories</h2>
+        <a href="#">Fruits & Vegetables</a>
+        <a href="#">Dairy Products</a>
+        <a href="#">Package Food</a>
+        <a href="#">Beverage</a>
+      </div>
+      <div class="footer-box">
+        <h2>Useful Links</h2>
+        <a href="#">Payment & Tax</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">My Blog</a>
+        <a href="#">Return Policy</a>
+      </div>
+      <div class="footer-box">
+        <h2>Categories</h2>
+        <a href="#">Fruits & Vegetables</a>
+        <a href="#">Dairy Products</a>
+        <a href="#">Package Food</a>
+        <a href="#">Beverage</a>
+      </div>
+      <div class="footer-box">
+        <h2>Newsletter</h2>
+        <p>Get 10% Discount with <br>Email Newsletter</p>
+        <form action="">
+        <i class="bx bxs-envelope"></i>
+        <input type="email" name="email" placeholder="Enter Your Email" />
+        <i class="bx bx-arrow-back bx-rotate-180"></i>
+        </form>
+      </div>
+    </section>
+    <!--footer section-->
+    <!--copyright-->
+    <div class="copyright">
+       <p>&#169; Delicacy All Rights Reserved</p>
+    </div>
+    <!--copyright-->
+     <script>
+      // const swiper = new Swiper(".swiper-container", {
+      //   // Optional parameters
+      //   direction: "horizontal", // 'horizontal' or 'vertical'
+      //   loop: true, // Enable looping
+      //   slidesPerView: 1, // Only one slide is visible at a time
+      //   centeredSlides: true, // Prevent centering of slides
+      //   spaceBetween: 100, // space between slides
+      //   // Pagination (dots navigation)
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //     clickable: true,
+      //   },
+
+      //   // Navigation buttons
+      //   navigation: {
+      //     nextEl: ".swiper-button-next",
+      //     prevEl: ".swiper-button-prev",
+      //   },
+      //   // Autoplay (optional)
+      //   autoplay: {
+      //     delay: 3000, // 3 seconds
+      //     disableOnInteraction: false, // Continue autoplay after user interaction
+      //   },
+      // });
+
+      let menu = document.querySelector('#menu-icon');
+      let navmenu = document.querySelector('.nav-menu');
+
+      menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navmenu.classList.toggle('active'); 
+      }
+
+      window.onscroll = () => {
+        menu.classList.toggle('bx-x');
+      }
+    </script>
+  </body>
+</html>
